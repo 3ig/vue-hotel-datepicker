@@ -320,6 +320,7 @@
         this.show = true;
         this.parseDisabledDates();
         this.reRender()
+        this.$emit("clearDates")
       },
 
       hideDatepicker() {
